@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from snowflake.snowpark.functions import col, to_date
 from snowflake.snowpark.context import get_active_session
-import _snowflake
+# import _snowflake
 import json
 import altair as alt
 import time
